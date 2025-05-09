@@ -26,7 +26,7 @@ A full-stack real-time to-do list app built using:
 - Real-time UI updates via WebSocket
 
 ##  Project Structure
-
+```
 ### Backend 
  src/
  |
@@ -58,6 +58,7 @@ A full-stack real-time to-do list app built using:
  ├── socket.js 
  ├── App.jsx 
  ├── main.jsx
+```
 
 ## Installation & Setup
 ### 1. Backend
