@@ -1,0 +1,13 @@
+.scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #A4521D transparent;
+}
+
+.scrollbar::-webkit-scrollbar-button {
+  display: none;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 20px;
+}
