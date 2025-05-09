@@ -28,35 +28,35 @@ A full-stack real-time to-do list app built using:
 ##  Project Structure
 
 ### Backend 
-src/
-│
-├── config/
-│ └── db.js 
-├── models/
-│ └── Task.js 
-├── routes/
-│ └── fetchTasks.js 
-├── utils/
-│ ├── redisClient.js 
-│ ├── taskUtils.js
-│ └── websocket.js 
-├── index.js 
+ src/
+ │
+ ├── config/
+ │ └── db.js 
+ ├── models/
+ │ └── Task.js 
+ ├── routes/
+ │ └── fetchTasks.js 
+ ├── utils/
+ │ ├── redisClient.js 
+ │ ├── taskUtils.js
+ │ └── websocket.js 
+ ├── index.js 
 
 ### Frontend 
-src/
-│
-├── assets/images/
-├── components/ 
-│ ├── AddTaskForm.jsx
-│ ├── Header.jsx
-│ └── TaskList.jsx
-├── pages/
-│ └── Home.jsx
-├── utils/
-│ └── url.js 
-├── socket.js 
-├── App.jsx 
-├── main.jsx
+ src/
+ │
+ ├── assets/images/
+ ├── components/ 
+ │ ├── AddTaskForm.jsx
+ │ ├── Header.jsx
+ │ └── TaskList.jsx
+ ├── pages/
+ │ └── Home.jsx
+ ├── utils/
+ │ └── url.js 
+ ├── socket.js 
+ ├── App.jsx 
+ ├── main.jsx
 
 ## Installation & Setup
 ### 1. Backend
