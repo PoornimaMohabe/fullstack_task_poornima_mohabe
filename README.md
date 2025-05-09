@@ -29,8 +29,9 @@ A full-stack real-time to-do list app built using:
 
 ### Backend 
  src/
- │
+ |
  ├── config/
+   |
  │ └── db.js 
  ├── models/
  │ └── Task.js 
